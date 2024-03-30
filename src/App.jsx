@@ -1,11 +1,13 @@
 import React from "react";
 import "./app.scss"
-import Navbar from "./Navabar/Navbar";
+import Navbar from "./Components/Navabar/Navbar";
+import Hero from "./Components/Hero/Hero";
 const App = () => {
   return (
     <>
     <section id="Homepage">
       <Navbar/>
+      <Hero/>
     </section>
     <section id="Services">Prallax</section>
     <section>Services</section>
